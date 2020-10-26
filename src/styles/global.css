@@ -1,0 +1,55 @@
+:root{
+    --purple: #663399;
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body{
+    margin: 0;
+
+}
+header, .content, footer{
+    padding: 1rem;
+
+}
+
+header{
+    background-color: var(--purple);
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul a{
+    padding: 1rem;
+}
+header nav ul a:first-child{
+    padding-left: 0;
+}
+
+.active{
+    text-decoration: none;
+    font-weight: bold;
+}
+.shoutout{
+    background: lightgoldenrodyellow;
+    /*background: url('../images/gatsby-icon.png');*/
+    padding: 1rem;
+}
+
+.radical-rex{
+    background: darkcyan;
+    color: white;
+    padding: 2rem;
+}
